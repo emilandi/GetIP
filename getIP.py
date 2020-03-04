@@ -9,11 +9,9 @@ system("cls")
 def getIP(): 
     try: 
         host = socket.gethostname() 
-        ip = socket.gethostbyname(host) 
-        print('')
+        ip = socket.gethostbyname(host)       
         print("Hostname :  ",host) 
         print("Local IP : ",ip)
-        print('')
     except: 
         print("error no se puede resolver la consulta")   
 
